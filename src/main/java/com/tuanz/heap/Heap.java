@@ -120,4 +120,19 @@ public class Heap {
             }
         System.out.println("\n" + dots + dots);
     }
+
+    public  void displayArray(){
+        for (int j=0; j<maxSize; j++){
+            System.out.print(heapArray[j].getKey() + " ");
+        }
+        System.out.println();
+    }
+
+    public void insertAt(int index, Node newNode){
+        heapArray[index] = newNode;
+    }
+
+    public void incrementSize(){
+        currentSize++;
+    }
 }
