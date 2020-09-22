@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * 栈事例1 字符串的反序列
+ * 栈实例1 字符串的反序列
  */
 public class ReverseApp {
 
